@@ -13,7 +13,7 @@ public class Triceratops extends Dinosaurio{
     
     @Override
     public void correr() {
-    	System.out.println("Triceratops horridus corre a 10 km /hr");
+    	System.out.println("Triceratops horridus corre a 10 km /hr \n");
     }
 
 }

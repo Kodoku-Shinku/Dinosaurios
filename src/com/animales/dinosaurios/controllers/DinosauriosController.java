@@ -1,5 +1,6 @@
 package com.animales.dinosaurios.controllers;
 
+
 import com.animales.dinosaurios.models.Dinosaurio;
 import com.animales.dinosaurios.views.DinosauriosView;
 
@@ -13,5 +14,13 @@ public class DinosauriosController {
 
     public void mostrarDinosaurio(Dinosaurio dinosaurio) {
         vista.mostrarDinosaurio(dinosaurio);
+    }
+    
+    public void agregarDinosaurioALista(Dinosaurio dinosaurio) {
+    	vista.agregarDinosaurioALista(dinosaurio);
+    }
+    
+    public void mostrarListaDinosaurios() {
+    	vista.mostrarListaDinoasurios();
     }
 }

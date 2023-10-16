@@ -2,7 +2,7 @@ package com.animales.dinosaurios.models;
 
 public class Dinosaurio {
 	
-	private String nombre; 
+	String nombre; 
 	private String periodoGeologico; //Periodo geológico en el que vivió
 	private double longitud; //Longitud en metros
 	private double peso; //Peso en kilogramos
@@ -24,7 +24,7 @@ public class Dinosaurio {
 	}
 	
 	public void correr() {
-		System.out.println("El dinosaurio corre");
+		System.out.println("El dinosaurio corre... \n");
 	}
 
 	/** Método que regresa el nombre del dinosaurio

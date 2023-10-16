@@ -13,7 +13,7 @@ public class Tiranosaurio extends Dinosaurio{
     
     @Override
     public void correr() {
-    	System.out.println("Tyrannosaurus rex corre a 5 km/hr");
+    	System.out.println("Tyrannosaurus rex corre a 5 km/hr \n");
     }
     
 

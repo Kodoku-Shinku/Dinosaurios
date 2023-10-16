@@ -21,6 +21,12 @@ public class Main {
         controller.mostrarDinosaurio(tiranosaurio);
         controller.mostrarDinosaurio(triceratops);
         controller.mostrarDinosaurio(velociraptor);
+        
+        controller.agregarDinosaurioALista(tiranosaurio);
+        controller.agregarDinosaurioALista(triceratops);
+        controller.agregarDinosaurioALista(velociraptor);
+        
+        controller.mostrarListaDinosaurios();
 
 	}
 

@@ -5,6 +5,6 @@ import com.animales.dinosaurios.models.Dinosaurio;
 public interface DinosauriosView {
 	
 	void mostrarDinosaurio(Dinosaurio dinosaurio);
-	void eliminarDinosaurio(Dinosaurio dinosaurio);
-	Dinosaurio buscarDinosaurio(String nombreDinosaurio);
+	void agregarDinosaurioALista(Dinosaurio dinosaurio);
+	void mostrarListaDinoasurios();
 }

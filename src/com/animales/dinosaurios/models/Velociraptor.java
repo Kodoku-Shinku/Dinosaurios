@@ -13,7 +13,7 @@ public class Velociraptor extends Dinosaurio{
     
     @Override
     public void correr() {
-    	System.out.println("Velociraptor mongoliensis corre a 30 km/hr");
+    	System.out.println("Velociraptor mongoliensis corre a 30 km/hr \n");
     }
 
 }
