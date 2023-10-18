@@ -31,6 +31,7 @@ public class DinosauriosConsoleView implements DinosauriosView{
 		for(Dinosaurio dinosaurio: listaDinosaurios) {
 			System.out.println(dinosaurio.getNombre());
 		}
+		System.out.println("");
 	}
 	
 }

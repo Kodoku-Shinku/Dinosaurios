@@ -2,7 +2,7 @@ package com.animales.dinosaurios.models;
 
 public class Dinosaurio {
 	
-	String nombre; 
+	private String nombre; 
 	private String periodoGeologico; //Periodo geológico en el que vivió
 	private double longitud; //Longitud en metros
 	private double peso; //Peso en kilogramos
