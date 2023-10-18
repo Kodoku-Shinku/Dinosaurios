@@ -8,7 +8,7 @@ public class Dinosaurio {
 	private double peso; //Peso en kilogramos
 	private String dieta; // Tipo de dieta (carnívoro, herbívoro, omnívoro)
 	
-	
+	//Constructor
 	public Dinosaurio (String nombre, String periodoGeologico, double longitud, double peso, String dieta) 
 	{
 		this.nombre = nombre;
