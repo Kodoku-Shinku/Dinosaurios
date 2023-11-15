@@ -1,8 +1,13 @@
 package com.animales.dinosaurios.views;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import com.animales.dinosaurios.models.Dinosaurio;
 
 public class DinosauriosConsoleView implements DinosauriosView{
+	
+	private List<Dinosaurio> listaDinosaurios = new ArrayList<>();
 	
 	@Override
     public void mostrarDinosaurio(Dinosaurio dinosaurio) {
@@ -13,18 +18,20 @@ public class DinosauriosConsoleView implements DinosauriosView{
         System.out.println("Dieta: " + dinosaurio.getDieta());
         dinosaurio.emitirSonido();
         dinosaurio.correr();
-        System.out.println("");
     }
 
 	@Override
-	public void eliminarDinosaurio(Dinosaurio dinosaurio) {
-		// TODO Auto-generated method stub
-		
+	public void agregarDinosaurioALista(Dinosaurio dinosaurio) {
+		listaDinosaurios.add(dinosaurio);
 	}
 
 	@Override
-	public Dinosaurio buscarDinosaurio(String nombreDinosaurio) {
-		// TODO Auto-generated method stub
-		return null;
+	public void mostrarListaDinoasurios() {
+		System.out.println("A continuación se muestra la lista de dinosaurios: ");
+		for(Dinosaurio dinosaurio: listaDinosaurios) {
+			System.out.println(dinosaurio.getNombre());
+		}
+		System.out.println("");
 	}
+	
 }
