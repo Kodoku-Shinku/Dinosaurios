@@ -33,7 +33,7 @@ public class DinosauriosController {
     
     public Dinosaurio buscarPorNombre(String nombre) {
         for (Dinosaurio dinosaurio : listaManager.obtenerDinosaurios()) {
-            if (dinosaurio.getNombre().equalsIgnoreCase(nombre)) {
+            if (dinosaurio.getNombre().equalsIgnoreCase(nombre) || dinosaurio.getNombre().toLowerCase().contains(nombre.toLowerCase())) {
                 return dinosaurio;
             }
         }
